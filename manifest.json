@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Demotivated Dash",
+  "version": "1.0",
+  "description": "在開啟新標籤頁時顯示'激勵'人心的通知",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png",
+    "400": "icon.png"
+  },
+  "permissions": ["notifications", "storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
